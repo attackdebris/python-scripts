@@ -38,4 +38,4 @@ for link in links:
 			urllib.request.urlretrieve(link, local_file)
 		except Exception as inst:
 			print(inst)
-			print('  Encountered unknown error. Continuing.')
+			print('Encountered unknown error. Continuing.')
